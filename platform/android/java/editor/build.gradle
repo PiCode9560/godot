@@ -81,7 +81,7 @@ android {
         applicationId "org.godotengine.editor.v4"
         versionCode generateVersionCode()
         versionName generateVersionName()
-        minSdkVersion 29 // Minimum recommended sdk version for Vulkan 1.1 support. See https://developer.android.com/games/develop/vulkan/native-engine-support#recommendations
+        minSdkVersion 28 // Minimum recommended sdk version for Vulkan 1.1 support. See https://developer.android.com/games/develop/vulkan/native-engine-support#recommendations
         targetSdkVersion versions.targetSdk
 
         missingDimensionStrategy 'products', 'editor'
